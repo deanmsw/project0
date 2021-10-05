@@ -1,0 +1,87 @@
+
+body {
+  background-color: aliceblue;
+  margin: 0;
+}
+
+.heading {
+  text-align: center;
+  font-size: 20px;
+}
+
+.container1 {
+  max-width: 450px;
+  height: 450px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  margin: 0 auto;
+
+
+}
+
+.box {
+  max-width: 147px;
+  max-height: 147px;
+  background-color: white;
+  cursor: pointer;
+
+
+}
+/* Top Rows */
+#box-0 {
+border-right: 2px solid black;
+width: 147px;
+border-bottom: 2px solid black;
+height: 146px;
+}
+#box-1 {
+  border-right: 2px solid black;
+  width: 146px;
+  border-bottom: 2px solid black;
+  height: 146px;
+}
+#box-2 {
+  border-bottom: 2px solid black;
+  height: 146px;
+/* Middle Rows */
+}
+
+#box-3 {
+  border-right: 2px solid black;
+  width: 147px;
+  border-bottom: 2px solid black;
+  height: 147px;
+}
+#box-4 {
+  border-right: 2px solid black;
+  width: 146px;
+  border-bottom: 2px solid black;
+  height: 147px;
+}
+#box-5 {
+  border-bottom: 2px solid black;
+  height: 147px;
+}
+
+/* Bottom Rows */
+#box-6 {
+  border-right: 2px solid black;
+  width: 147px;
+
+}
+#box-7 {
+  border-right: 2px solid black;
+  width: 146px;
+}
+#box-8 {
+
+}
+.x {
+  font-size: 100px;
+  text-align: center;
+}
+.o {
+  font-size: 100px;
+  text-align: center;
+}
