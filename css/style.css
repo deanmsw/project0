@@ -26,6 +26,7 @@ h1 {
 
 .container1 {
   max-width: 450px;
+  min-width: 450px;
   height: 450px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
@@ -35,12 +36,14 @@ h1 {
 
 }
 
+
 .box {
   max-width: 147px;
   max-height: 147px;
   background-color: black;
   cursor: pointer;
 }
+
 .playerO {
   text-align: center;
   font-size: 50px;
@@ -57,7 +60,7 @@ h1 {
   color: white;
 }
 
-/* Top Rows */
+/* Top Rows  */
 #box-0 {
 border-right: 2px solid #39ff14;
 width: 147px;
@@ -73,7 +76,7 @@ height: 146px;
 #box-2 {
   border-bottom: 2px solid #39ff14;
   height: 146px;
-/* Middle Rows */
+ /* Middle Rows */
 }
 
 #box-3 {
