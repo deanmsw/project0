@@ -1,7 +1,22 @@
 
 body {
-  background-color: aliceblue;
+  background-color: black;
   margin: 0;
+}
+h1 {
+  color: #39ff14;
+  font-size: 50px;
+}
+.btn {
+  color: white;
+  background-color: blue;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .heading {
@@ -23,55 +38,69 @@ body {
 .box {
   max-width: 147px;
   max-height: 147px;
-  background-color: white;
+  background-color: black;
   cursor: pointer;
-
-
 }
+.playerO {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.playerX {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.draw {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
 /* Top Rows */
 #box-0 {
-border-right: 2px solid black;
+border-right: 2px solid #39ff14;
 width: 147px;
-border-bottom: 2px solid black;
+border-bottom: 2px solid #39ff14;
 height: 146px;
 }
 #box-1 {
-  border-right: 2px solid black;
+  border-right: 2px solid #39ff14;
   width: 146px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #39ff14;
   height: 146px;
 }
 #box-2 {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #39ff14;
   height: 146px;
 /* Middle Rows */
 }
 
 #box-3 {
-  border-right: 2px solid black;
+  border-right: 2px solid #39ff14;
   width: 147px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #39ff14;
   height: 147px;
 }
 #box-4 {
-  border-right: 2px solid black;
+  border-right: 2px solid #39ff14;
   width: 146px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #39ff14;
   height: 147px;
 }
 #box-5 {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #39ff14;
   height: 147px;
 }
 
 /* Bottom Rows */
 #box-6 {
-  border-right: 2px solid black;
+  border-right: 2px solid #39ff14;
   width: 147px;
 
 }
 #box-7 {
-  border-right: 2px solid black;
+  border-right: 2px solid #39ff14;
   width: 146px;
 }
 #box-8 {
@@ -80,8 +109,10 @@ height: 146px;
 .x {
   font-size: 100px;
   text-align: center;
+  color: white;
 }
 .o {
   font-size: 100px;
   text-align: center;
+  color: white;
 }
