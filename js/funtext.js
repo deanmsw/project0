@@ -1,6 +1,9 @@
+// The Following Code is not Dean Scotthornes code and was taken from http://briznad.github.io/funText/ 
+
+
 ;(function( $, window, document, undefined ) {
 
-    var pluginName = 'funText';
+	var pluginName = 'funText';
 
     $[pluginName] = function(el, shadowSize, shadowColor){
 
