@@ -1,30 +1,14 @@
 ;(function( $, window, document, undefined ) {
 
-    // undefined is used here as the undefined global variable in ECMAScript 3 is
-    // mutable (ie. it can be changed by someone else). undefined isn't really being
-    // passed in so we can ensure the value of it is truly undefined. In ES5, undefined
-    // can no longer be modified.
-
-    // window and document are passed through as local variable rather than global
-    // as this (slightly) quickens the resolution process and can be more efficiently
-    // minified (especially when both are regularly referenced in your plugin).
-
-    // plugin name
     var pluginName = 'funText';
 
     $[pluginName] = function(el, shadowSize, shadowColor){
-        // To avoid scope issues, use 'base' instead of 'this'
-        // to reference this class from internal events and functions.
+
         var base = this;
 
         // Access to jQuery and DOM versions of element
         base.$el = $(el);
         base.el = el;
-
-        // Add a reverse reference to the DOM object
-        // Zepto only supports the following use of data() through the optional data plugin
-        // Therefore reverse reference is only supported with jQuery or custom Zepto build
-        //base.$el.data("pbjCarousel", base);
 
         // define known color palettes
         // palettes are ordered like the color spectrum, from violet to red
@@ -43,11 +27,6 @@
 
         var methods = {
 
-  			// throttle function from Underscore 1.4.4
-	        //
-			// > http://underscorejs.org
-			// > (c) 2009-2013 Jeremy Ashkenas, DocumentCloud Inc.
-			// > Underscore may be freely distributed under the MIT license.
 	        throttle: function(func, wait) {
 				var context, args, timeout, result;
 				var previous = 0;
